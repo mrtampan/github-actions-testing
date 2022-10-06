@@ -15,7 +15,7 @@ jobs:
           node-version: 12.x
       - name: Install nodejs dependencies
         run: |
-          npm
+          npm install
       - name: Run Webpack Build
         run: |
           npm run production
